@@ -1,0 +1,11 @@
+var dripCost = 5.80;
+var espressoCost = 2.90;
+var teaCost = 3.50;
+var chocolateCost = 5.00;
+var cookieCost = 2.75;
+var poundCakeCost = 9.00;
+var dripperCost = 20.00;
+var tax =  (dripCost+espressoCost+teaCost+chocolateCost+cookieCost+poundCakeCost+dripperCost)*0.08875;
+var subTotal = dripCost+espressoCost+teaCost+chocolateCost+cookieCost+poundCakeCost+dripperCost;
+var total = subTotal+tax;
+document.getElementById("subTotal").innerHTML = subTotal;
