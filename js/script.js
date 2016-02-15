@@ -1,4 +1,4 @@
-var dripQty = 3;
+var dripQty = 4;
 document.getElementById("dripQty").innerHTML = dripQty;
 var dripPrice = 2.90;
 document.getElementById("dripPrice").innerHTML = dripPrice.toFixed(2);
@@ -15,3 +15,5 @@ var subTotal = dripCost+espressoCost+teaCost+chocolateCost+cookieCost+poundCakeC
 var total = subTotal+tax;
 
 document.getElementById("subTotal").innerHTML = subTotal;
+document.getElementById("tax").innerHTML = tax.toFixed(2);
+document.getElementById("total").innerHTML = total.toFixed(2);
